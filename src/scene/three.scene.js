@@ -59,7 +59,7 @@ export class ThreeScene extends Scene{
             audioLoader.load( mp3url, function( buffer ) {
                 sound.setBuffer( buffer );
                 sound.setLoop( true );
-                sound.setVolume( 0.2 );
+                sound.setVolume( 1 );
                 if(sound.isPlaying){
                     sound.stop()
                     document.getElementById("progress").style.width= "0%";
