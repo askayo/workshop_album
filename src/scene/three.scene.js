@@ -18,17 +18,17 @@ export class ThreeScene extends Scene{
         super();
         let arrayMusic = [
             ['assets/sounds/son.mp3', "Le monde est petit", "./assets/images/album.jpg"],
-            ['assets/sounds/free-22gz-nyuk-drill-type-beat-demons-prod-by-ricorundat.mp3', "BONBON", "./assets/images/album1.jpg"],
-            ['assets/sounds/free-lucki-type-beat-2021-nobody.mp3', "Encore", "./assets/images/album2.jpg"]
-            ,['assets/sounds/free-lucki-x-unotheactivist-type-beat-2020-what-is-real-prod-nate22.mp3', "Notorious", "./assets/images/album3.jpg"]]
+            ['assets/sounds/son1.mp3', "BONBON", "./assets/images/album1.jpg"],
+            ['assets/sounds/son2.mp3', "Encore", "./assets/images/album2.jpg"]
+            ,['assets/sounds/son3.mp3', "Notorious", "./assets/images/album3.jpg"]]
         const loader2 = new THREE.CubeTextureLoader();
         const texture = loader2.load([
-            'assets/textures/nx.png',
-            'assets/textures/px.png',
-            'assets/textures/py.png',
-            'assets/textures/ny.png',
-            'assets/textures/nz.png',
-            'assets/textures/pz.png',
+            'assets/textures/nx.jpg',
+            'assets/textures/px.jpg',
+            'assets/textures/py.jpg',
+            'assets/textures/ny.jpg',
+            'assets/textures/nz.jpg',
+            'assets/textures/pz.jpg',
         ]);
         this.background = texture;
 
